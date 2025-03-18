@@ -14,7 +14,7 @@ FallbackDNS=
 DNSSEC=yes
 Cache=no-negative
 
-sudo systemctl enable systemd-resolved
+sudo systemctl enable systemd-resolved;
 sudo systemctl restart systemd-resolved;
 sudo systemctl restart NetworkManager;
 sudo resolvectl status;
